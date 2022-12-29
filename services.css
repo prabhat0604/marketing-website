@@ -1,0 +1,132 @@
+/* ////////////////intro/////////// */
+.helpfulfor {
+  font-size: 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+/* ///////////////////intro button////////////////// */
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 28px 56px;
+  font-size: 32px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 80%;
+}
+/* Blue */
+.info {
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196f3;
+  color: rgb(1, 0, 0);
+}
+/* Transform how people work together with Grow */
+.sd{
+    font-size:50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ecf1f5;
+    background-color: gray;
+    height: 150px;
+    width: 40;
+    margin-right: 50%;
+}
+/* ss */
+.ss{
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* experience with */
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 30.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(47, 40, 40, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(255, 254, 254);
+    background-color: rgb(7, 7, 7);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: rgb(66, 101, 165);
+  }
+/* get support background image */
+#imga {
+  height: 420px;
+  width: 1445px;
+  margin-left: 0px;
+}
+/* ////////////////////get support  ///////////////// */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.left-center {
+  position: absolute;
+  bottom: 250px;
+  left: 150px;
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.imagedec {
+  position: absolute;
+  bottom: 200px;
+  left: 150px;
+  font-size: 50;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.startnow {
+  position: absolute;
+  bottom: 180px;
+  left: 150px;
+  color: #91c7fe;
+  font-size: 20px;
+}
+.startnow a:hover {
+  color: rgb(245, 245, 245);
+}
